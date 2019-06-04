@@ -3,5 +3,6 @@
 /home/dima/JavaProjects/IDEA/SpringJDBC_MVC_Freemarker/demotest/src/main/java/com/vebinar/config/SpringConfig.java
 /home/dima/JavaProjects/IDEA/SpringJDBC_MVC_Freemarker/demotest/src/main/java/com/vebinar/controller/UserController.java
 /home/dima/JavaProjects/IDEA/SpringJDBC_MVC_Freemarker/demotest/src/main/java/com/vebinar/config/WebConfig.java
+/home/dima/JavaProjects/IDEA/SpringJDBC_MVC_Freemarker/demotest/src/main/java/com/vebinar/entity/User.java
 /home/dima/JavaProjects/IDEA/SpringJDBC_MVC_Freemarker/demotest/src/main/java/com/vebinar/service/UserService.java
 /home/dima/JavaProjects/IDEA/SpringJDBC_MVC_Freemarker/demotest/src/main/java/com/vebinar/service/TestBean.java
