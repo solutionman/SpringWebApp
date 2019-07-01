@@ -22,7 +22,7 @@ public class SpringConfig{
     @Bean
     public DataSource getDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setUrl( "jdbc:mariadb://localhost:3306/vebinar?useSll=false" );
+        dataSource.setUrl( "jdbc:mysql://localhost:3306/vebinar?useSll=false" );
         dataSource.setUsername( "root" );
         dataSource.setPassword( "12lom97" );
         dataSource.setDriverClassName( "com.mysql.jdbc.Driver" );
