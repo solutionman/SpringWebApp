@@ -22,5 +22,7 @@
     </tr>
 </#list>
 </table>
+
+<a href="/demotest-1/addUser">Create user</a>
 </body>
 </html>
