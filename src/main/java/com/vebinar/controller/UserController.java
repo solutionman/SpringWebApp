@@ -50,4 +50,22 @@ public class UserController{
         userService.save( user );
         return "redirect:/users";
     }
+
+    @PostMapping( "/updateUser" )
+    public String updateUser( @ModelAttribute( "user" ) User user ){
+        userService.update( user );
+        return "redirect:/user/" + user.getId();
+    }
+
+    @GetMapping( "/update/{id}" )
+    public String update( @PathVariable( "id" ) int id, Model model ){
+        model.addAttribute( "user",  userService.getById( id ) );
+        return "editUser";
+    }
+
+    @GetMapping( "/delete/{id}" )
+    public String deleteUser( @PathVariable( "id" ) int id ){
+        userService.delete( id );
+        return "redirect:/users";
+    }
 }

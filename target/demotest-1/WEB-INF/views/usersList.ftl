@@ -19,6 +19,8 @@
         <td>${user.name}</td>
         <td>${user.email}</td>
         <td>${user.age}</td>
+        <td><a href="/demotest-1/delete/${user.id}">Delete</a></td>
+        <td><a href="/demotest-1/update/${user.id}">Update</a></td>
     </tr>
 </#list>
 </table>
